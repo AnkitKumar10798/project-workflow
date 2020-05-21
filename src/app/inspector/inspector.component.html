@@ -1,0 +1,11 @@
+<div *ngIf="formStatus" class ="form-group">
+    <form *ngIf="selectedNode" (ngSubmit)="onCommitForm()" class = ".form-control">
+        Name: <input name="key" [(ngModel)]="data.key" />
+        Color: <input name="color" [(ngModel)]="data.color" />
+        <button type="submit" class="btn btn-primary">Close</button>
+    </form>
+</div>
+<div *ngIf = "!formStatus"></div>
+
+
+
