@@ -24,6 +24,8 @@ input {
   font-weight: 300;
   border-radius: 10px;
   background: white;
+  width:100px;
+  height:20px;
 }
 input:focus {
   border-radius: 10px;

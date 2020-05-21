@@ -10,7 +10,7 @@ export class InspectorComponent implements OnInit {
   public formStatus = false;
   //model data to change property of selected node
   public data = {
-    key:null,
+    name:null,
     color:null
   };
   //inspector can change the input model present
@@ -25,7 +25,7 @@ export class InspectorComponent implements OnInit {
     {
       
       this._selectedNode = node;
-      this.data.key =  this._selectedNode.data.key;
+      this.data.name =  this._selectedNode.data.name;
       this.data.color = this._selectedNode.data.color;
       this.formStatus=true;
     }
