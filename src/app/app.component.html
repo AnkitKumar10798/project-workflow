@@ -1,2 +1,8 @@
-<app-palette [model]='model' (nodeClicked)='setSelectedNode($event)'></app-palette>
-<app-inspector [selectedNode]='selectedNode' [model]='model'></app-inspector>
+<section class='container-fluid'>
+	<section class='col-md-9 col-sm-12'>
+		<app-palette [model]='model' (nodeClicked)='setSelectedNode($event)'></app-palette>
+	</section>
+	<section class='col-md-3 col-sm-12'>
+		<app-inspector [selectedNode]='selectedNode' [model]='model'></app-inspector>
+	</section>
+</section>

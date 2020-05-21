@@ -1,25 +1,21 @@
-#myDiagramDiv{
-  position: absolute;
-  width: 950px;
-  height: 510px;
-  border: 1px solid black;
-  background-color:gray;
-  left: 150px;
-  margin-top: auto;
-  margin-bottom:auto;
-  margin-left:auto;
-  margin-right:auto;
-
-}
 #myPaletteDiv {
   position: relative;;
   width:  120px;
   height: 510px;
+  border: solid 1px silver;
+  background-color: white;
+  padding: 10px;
+}
+#myDiagramDiv{
+  position: absolute;
+  width: 70vmax;
+  height: 510px;
+  left: 140px;
   border: 1px solid black;
-  background-color: #DCDCDC;
-  margin-top: 20px;
+  background-color:gray;
+  margin-top: auto;
   margin-bottom:auto;
-  margin-left:10px;
+  margin-left:auto;
   margin-right:auto;
 
 }

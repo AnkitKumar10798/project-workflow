@@ -9,12 +9,11 @@
 form {
   background: lightgray;
   border: 1px solid black;
-  position: relative;
+  position: absolute;
   width:200px;
   height:500px;
-  /* left:1150px; */
-  /* bottom:116px; */
-  /* margin-top: 20px; */
+  right: 0;
+  top: 0;
   margin-right:auto;
 }
 
