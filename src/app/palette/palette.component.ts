@@ -70,7 +70,7 @@ export class PaletteComponent implements OnInit {
             margin: new go.Margin(6, 8, 6, 10)
           },
           new go.Binding('source', 'key', function(key) {
-            if (key < 0 || key >6) return ''; // There are only 16 images on the server
+            if (key < 0 || key >7 ) return ''; // There are only 16 images on the server
             return 'assets/HS' + key + '.png';
           })
         ),

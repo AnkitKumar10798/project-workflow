@@ -15,6 +15,7 @@ export class AppComponent {
       { key:4, name: "Services", color: "white" },
       { key:5, name: "Environment", color: "white" },
       { key:6, name: "Service Ports", color: "white" },
+      { key:7, name: "Role",color:"white"}
     ]
   public setSelectedNode(node)
   {
